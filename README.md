@@ -2,14 +2,14 @@
 
 Catálogo digital de serviços de informática da GLTEC, desenvolvido com Next.js, React, TypeScript e Supabase. Permite que clientes consultem serviços oferecidos e que administradores gerenciem o catálogo de forma simples e segura.
 
-## ✨ Funcionalidades
+##  Funcionalidades
 
 - **Catálogo de Serviços**: Visualização de serviços por categoria, busca por nome ou descrição.
 - **Painel Administrativo**: Login de administrador para gerenciar serviços e categorias (CRUD completo).
 - **Integração com Supabase**: Persistência de dados em nuvem (serviços e categorias).
 - **Interface Responsiva**: Layout moderno, responsivo e acessível.
 
-## 🚀 Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - [Next.js](https://nextjs.org/) (App Router)
 - [React](https://react.dev/)
@@ -29,7 +29,7 @@ public/             # Assets públicos
 styles/             # Estilos globais
 ```
 
-## ⚙️ Como rodar localmente
+##  Como rodar localmente
 
 1. **Clone o repositório:**
    ```bash
@@ -54,11 +54,11 @@ styles/             # Estilos globais
 5. **Acesse:**
    - [http://localhost:3000](http://localhost:3000)
 
-## 🔐 Acesso Administrativo
+##  Acesso Administrativo
 - Clique em "Admin" no topo da página e faça login para acessar o painel de gerenciamento.
 - Recomenda-se configurar autenticação real no Supabase Auth para produção.
 
-## 🛠️ Comandos úteis
+##  Comandos úteis
 - `pnpm dev` — Inicia o servidor de desenvolvimento
 - `pnpm build` — Gera build de produção
 - `pnpm start` — Inicia o app em modo produção
