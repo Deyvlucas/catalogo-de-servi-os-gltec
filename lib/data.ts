@@ -1,10 +1,3 @@
-// =============================================================================
-// MOCK DATA - Estruturado para fácil integração com Supabase
-// =============================================================================
-// Para migrar para Supabase, substitua os arrays abaixo por:
-// const { data: categories } = await supabase.from('categorias').select('*')
-// const { data: services } = await supabase.from('servicos').select('*')
-// =============================================================================
 
 export interface Categories {
   id: string
@@ -61,4 +54,4 @@ export const initialServices: Service[] = [
 ]
 
 // Senha de administrador (em produção, usar autenticação real via Supabase Auth)
-export const ADMIN_PASSWORD = "admin123"
+export const ADMIN_PASSWORD = process.env.NEXT_PUBLIC_ADMIN_PASSWORD
